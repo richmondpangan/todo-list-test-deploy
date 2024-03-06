@@ -11,7 +11,7 @@ function TodoList() {
     function addTask() {
         if (newTask.trim() !== "") {
             setTasks(t => [...t, newTask]);
-            setTasks("");
+            setNewTask("");
         }
     }
 
